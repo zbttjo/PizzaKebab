@@ -1,0 +1,261 @@
+body {
+  font-family: 'Abel', sans-serif !important;
+  color: #121618 !important;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a:hover {
+  color: #fac564 !important;
+}
+
+.btn {
+  background-color: #c05619 !important;
+  border-radius: 0 !important;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background-color: transparent !important;
+  border: 1px solid #c05619;
+  color: #ffffff !important;
+}
+
+/*///////////////////////////// Navbar //////////////////////////////*/
+.navbar {
+  background-color: #000000 !important;
+}
+
+.navbar-dark .navbar-toggler {
+  border: 0 !important;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #FFF !important;
+}
+
+.navbar .nav-item.active .nav-link,
+.navbar .nav-item:hover .nav-link {
+  color: #c05619  !important;
+}
+
+/*///////////////////////// Jumbotron Home ////////////////////////////*/
+.jumbotron {
+  border-radius: 0 !important;
+}
+
+.bg-image {
+  background: url('../img/autre3.jpeg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*///////////////////////// Jumbotron Pages ////////////////////////////*/
+.title-page {
+  margin-top: 71px !important;
+}
+
+.title-page h1 {
+  color: #FFF;
+  
+}
+
+.menu-header {
+  background: url('../img/main-img.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.gallery-header {
+  background: url('../img/autre3.jpeg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.about-header {
+  background: url('../img/autre.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.contact-header {
+  background: url('../img/autre2.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*////////////////////////// Form ///////////////////////////////*/
+form button {
+  border: 1px solid #c05619  !important;
+  padding: 10px 30px !important;
+}
+
+form button i {
+  margin-right: 5px;
+}
+
+.form-control {
+  border: 1px solid #ced4da;
+  border-radius: 0 !important;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.form-control:focus {
+  border: 1px solid rgba(250, 197, 100) !important;
+  box-shadow: 0 0 0 .2rem rgba(250, 197, 100, 0.5) !important;
+}
+
+textarea.form-control{
+  height: 200px !important;
+}
+/*/////////////////////////// Section /////////////////////////*/
+.promo {
+  background-color: #ffffff;
+}
+.promo img{
+  height: 100%;
+}
+.news {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #c05619;
+}
+
+.border-title {
+  height: 3px;
+  width: 40px;
+  margin: 0 auto 0 auto;
+  background-color: #c05619 ;
+}
+
+.badge {
+  font-size: 1.8rem !important;
+  padding: 0 !important;
+}
+
+.menu-content small {
+  line-height: 1.2rem;
+  color: rgb(126, 126, 126);
+}
+
+.about-content ul {
+  margin: 0 0 0 1rem !important;
+  padding: 0 !important;
+}
+
+.about-content ul li {
+  margin-bottom: 3px !important;
+}
+
+.google-map iframe {
+  width: 100%;
+  height: 400px;
+}
+
+h3 i {
+  color: #fac564;
+}
+
+/*//////////////////// Gallery //////////////////////*/
+.carousel-indicators {
+  position: relative !important;
+}
+
+.carousel-indicators li {
+  text-indent: 0 !important;
+  height: auto !important;
+}
+
+.page-link {
+  color: #121618 !important;
+}
+
+.page-link:hover {
+  color: #121618 !important;
+}
+
+.page-link:focus {
+  box-shadow: 0 0 0 .2rem rgba(250, 197, 100, 0.5) !important;
+}
+
+.page-item.active .page-link {
+  background-color: #c05619  !important;
+  color: #FFF !important;
+  border-color: #c05619  !important;
+}
+
+/*///////////////////// Footer ///////////////////////*/
+footer {
+  background-color: #121618;
+  width: 100%;
+}
+
+footer p {
+  color: rgb(210, 213, 212);
+  text-align: center;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+footer ul li {
+  margin-right: 20px;
+}
+
+footer ul li:last-child {
+  margin-right: 0px;
+}
+
+footer ul li a {
+  color: rgb(210, 213, 212);
+}
+
+/*///////////////////// Media Queries ///////////////////*/
+@media (max-width: 576px) {
+  h1 {
+    font-size: 3rem !important;
+  }
+
+  h2 {
+    font-size: 2.5rem !important;
+  }
+}
+
+@media (min-width:768px) {
+  footer ul {
+    justify-content: flex-end;
+  }
+
+  footer p {
+    text-align: left;
+  }
+}
+
+@media (min-width:1024px) {
+  .title-page {
+    margin-top: 87px !important;
+  }
+}
